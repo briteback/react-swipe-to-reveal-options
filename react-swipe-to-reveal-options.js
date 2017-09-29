@@ -274,7 +274,7 @@ import React, { Component} from 'react';
         action: action,
         swipingLeft: true
       });
-    },
+    }
 
     swipingRight(event, delta) {
       if (this.swipingHandleStylesAndDelta(delta, "right")) {
@@ -371,7 +371,7 @@ import React, { Component} from 'react';
     revealLeft() {
       this.props.onReveal("left");
       this.setState({ showRightButtons: false, showLeftButtons: true});
-    },
+    }
 
     rightClick(option) {
       this.props.onRightClick(option);
