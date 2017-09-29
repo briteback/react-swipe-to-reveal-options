@@ -153,7 +153,7 @@ import React, { Component} from 'react';
         }
       return React.createElement("div", props, this.props.children);
     }
-  });
+  }
 
   class SwipeToRevealOptions extends Component {
     /*propTypes: {
@@ -474,4 +474,4 @@ import React, { Component} from 'react';
       this.props.closeOthers();
       this.transitionBack();
     }
-  });
+  }
