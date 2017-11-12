@@ -155,7 +155,7 @@ import React, { Component} from 'react';
     }
   }
 
-  class SwipeToRevealOptions extends Component {
+  export default class SwipeToRevealOptions extends Component {
     /*propTypes: {
       rightOptions: React.PropTypes.array,
       leftOptions: React.PropTypes.array,
